@@ -10,7 +10,7 @@ h1 {
 
 p {
   color: #8b8b8bcc;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 
@@ -140,4 +140,81 @@ li {
 .grupo_video img{
   width: 120px;
   margin-top: 10px;
+}
+
+.features{
+  display: grid;
+  /*grid-template-columns: 300px 300px;
+  grid-template-columns: repeat(2,300px);
+  grid-template-columns: 500px 1fr;
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,330px);*/
+
+  grid-template: repeat(2,1fr) / repeat(2,330px);
+}
+
+.feature-art{
+background-color: purple;
+margin: 10px;
+width: 40%;
+height: 50px;
+}
+
+
+.pw1{
+  background-color: #a1d683;
+  display: flex;
+  margin: 100px auto;
+  align-items: center;
+  padding: 10%;
+}
+
+.pw1 article{
+  width: 40%;
+  margin-right: 15%;
+}
+
+.pw1 > div{
+  background-color: white;
+  width: 40%;
+  padding-bottom: 2%;
+}
+
+.pw1 > div h3,p{
+  margin: 5%;
+}
+
+
+.pw1 > div img{
+  width: 100%;
+}
+
+
+.pw1 h3{
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 40px;
+  color: #025157;
+}
+
+.pw1 p{
+  color: black;
+}
+
+button{
+  font-family: 'Dela Gothic One', cursive;
+  background-color: #025157;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.pw1 article div{
+  margin-top: 5%;
+}
+
+.pw1 article div img{
+  width: 100%;
+  
 }
