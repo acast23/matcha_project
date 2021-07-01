@@ -41,7 +41,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="fixed navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">
             <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
         </a>
@@ -53,10 +53,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="mx-auto navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Platform</a>
+                    <a class="nav-link" href="./index.html">Platform</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="pricing.html">Pricing</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Customers</a>
@@ -105,26 +105,26 @@
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://www.placecage.com/300/150" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.placecage.com/300/150" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.placecage.com/300/150" class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img src="https://www.placecage.com/300/150" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.placecage.com/300/150" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.placecage.com/300/150" class="d-block w-100" alt="...">
+            </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
         </a>
-      </div>
-     <!----------------------  FIN DE BOOTSTRAP CARRUSEL DE IMAGENES ---------------------------------------------------->
+    </div>
+    <!----------------------  FIN DE BOOTSTRAP CARRUSEL DE IMAGENES ---------------------------------------------------->
 
 
 
@@ -189,6 +189,44 @@
 
         </article>
     </section>
+
+    <div class="form-group">
+        <label for="file">Carga de imagen</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div><br>
+  
+
+    <!----------------------  INICIO DE BOOTSTRAP ALERT ---------------------------------------------------->
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>CUIDADO</strong> con los siguientes spoilers, de click bajo su propio riesgo.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <!----------------------  FIN DE BOOTSTRAP ALERT ---------------------------------------------------->
+
+    <!----------------------  INICIO DE BOOTSTRAP COLLAPSE ---------------------------------------------------->
+
+    <p>
+        <!-- <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Link with href
+        </a> -->
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            DAME EL NOTICION!
+        </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            Jar Jar Binks fue la mente maestra detras de todo.
+        </div>
+    </div>
+    <!----------------------  FIN DE BOOTSTRAP COLLAPSE ---------------------------------------------------->
+
+
+
 
     <section class="features">
         <article class="feature-card">

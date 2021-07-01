@@ -273,6 +273,12 @@ button{
   
 }
 
+.carousel-inner > .carousel-item > img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
 /* .navbar, .actions { */
